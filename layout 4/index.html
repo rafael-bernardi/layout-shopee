@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"/> 
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="bg-light">
+
+  <header class="topbar text-white py-2 small">
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <div class="d-flex gap-3 flex-wrap">
+        <a href="#" class="top-link">Central do Vendedor</a>
+        <a href="#" class="top-link">Vender na Shopee</a>
+        <a href="#" class="top-link">Baixe o App</a>
+        <a href="#" class="top-link">Siga-nos no <i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-whatsapp"></i></a>
+      </div>
+      <div class="d-flex gap-3 flex-wrap">
+        <a href="#" class="top-link"><i class="bi bi-bell"></i> Notificações</a>
+        <a href="#" class="top-link"><i class="bi bi-question-circle"></i>Ajuda</a>
+        <a href="#" class="top-link"><i class="bi bi-translate"></i>Português (BR) <i class="bi bi-chevron-down"></i></a>
+        <a href="#" class="top-link">Cadastrar</a>
+        <a href="#" class="top-link">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="searchbar py-3">
+    <div class="container d-flex align-items-center gap-4">
+      <h1 class="m-0 fw-bold text-white fs-3"><i class="bi bi-bag fill fs-4 text-orange"></i>Shopee</h1>
+
+      <form class="flex-grow-1 position-relative">
+        <input type="search" class="form-control rounded-0" placeholder="Buscar na Shopee">
+        <button class="btn btn-light position-absolute end-0 top-0 h-100 border-0">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+
+      <a href="#" class="text-white fs-4"><i class="bi bi-cart"></i></a>
+    </div>
+  </nav>
+
+  <div class="bg-white border-bottom">
+    <h5 class="text-center py-3 mb-0 fw-semibold letter">DESCOBERTAS DO DIA</h5>
+  </div>
+
+  <main class="container py-4">
+    <div class="row g-3">
+
+        <div class="col-6 col-md-3 col-lg-2">
+            <div class="product-card position-relative bg-white border">
+              <span class="badge-discount">-20%</span>
+              <img src="img.png/iphones.png" alt="Iphone" class="w-100">
+              <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+              <div class="p-2">
+                <p class="name mb-1">iPhone 11 128gb/64gb</p>
+                <p class="price-old text-muted mb-0">R$ 2.499,00</p>
+                <p class="price-new fw-semibold text-danger mb-0">R$ 1.990,90</p>
+                <p class="sold small text-muted mb-0">1,5 k vendidos</p>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-19%</span>
+      <img src="img.png/ps4.png" alt="PlayStation 4" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">PlayStation 4 1 TB + 2 Jogos</p>
+        <p class="price-old text-muted mb-0">R$ 2.199,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 1.779,90</p>
+        <p class="sold small text-muted mb-0">1,5 k vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-63%</span>
+      <img src="img.png/malbec.png" alt="Kit 02 Malbec" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Kit 02 Perfume Malbec Masculino 100 ml</p>
+        <p class="price-old text-muted mb-0">R$ 79,90</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 29,89</p>
+        <p class="sold small text-muted mb-0">4,2 k vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-25%</span>
+      <img src="img.png/computador.png" alt="PC Completo" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">PC Completo i5 + SSD | Mon/Teclado/Mouse</p>
+        <p class="price-old text-muted mb-0">R$ 1.200,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 900,00</p>
+        <p class="sold small text-muted mb-0">980 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-12%</span>
+      <img src="img.png/samsung.png" alt="Samsung S24" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">iPhone 11 64 GB novo lacrado (vermelho)</p>
+        <p class="price-old text-muted mb-0">R$ 2.099,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 1.847,00</p>
+        <p class="sold small text-muted mb-0">750 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-25%</span>
+      <img src="img.png/xbox.png" alt="Xbox Series S 1TB" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Xbox series S 1TB + 1 controle</p>
+        <p class="price-old text-muted mb-0">R$ 2.399,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 1.799,00</p>
+        <p class="sold small text-muted mb-0">9 k vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-27%</span>
+      <img src="img.png/jbl.png" alt="JBL Boombox 3" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Caixa de Som JBL Boombox 3 180 W</p>
+        <p class="price-old text-muted mb-0">R$ 2.799,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 2.050,00</p>
+        <p class="sold small text-muted mb-0">530 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-25%</span>
+      <img src="img.png/fone.png" alt="Headset Gamer Havit" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Headset gamer havit Fuxi-h3</p>
+        <p class="price-old text-muted mb-0">R$ 299,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 189,99</p>
+        <p class="sold small text-muted mb-0">620 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-9%</span>
+      <img src="img.png/monitor.png" alt="Monitor odyssey G32" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Monitor odyssey G32</p>
+        <p class="price-old text-muted mb-0">R$ 1.699,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 1.375,00</p>
+        <p class="sold small text-muted mb-0">410 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-69%</span>
+      <img src="img.png/mouse.png" alt="Mouse gamer" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Mouse gamer Atack Shark x-11</p>
+        <p class="price-old text-muted mb-0">R$ 359,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 149,99</p>
+        <p class="sold small text-muted mb-0">2 k vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-47%</span>
+      <img src="img.png/tv.png" alt="Smart TV 50" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Smart TV LED HD 50" </p>
+        <p class="price-old text-muted mb-0">R$ 1.899,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 987,99</p>
+        <p class="sold small text-muted mb-0">1,1 k vendidos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6 col-md-3 col-lg-2">
+    <div class="product-card position-relative bg-white border">
+      <span class="badge-discount">-46%</span>
+      <img src="img.png/teclado.png" alt="Teclado gamer" class="w-100">
+      <span class="badge-shipping">FRETE GRÁTIS acima de R$19</span>
+      <div class="p-2">
+        <p class="name mb-1">Teclado mecânico Kumara Pro</p>
+        <p class="price-old text-muted mb-0">R$ 499,00</p>
+        <p class="price-new fw-semibold text-danger mb-0">R$ 285,49</p>
+        <p class="sold small text-muted mb-0">320 vendidos</p>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </main>
+
+  <footer class="bg-black text-white-50 small py-4">
+    <div class="container d-flex justify-content-between flex-wrap">
+      <span>© 2025 Shopee. Todos os direitos reservados</span>
+      <span>País e região: Singapura, Indonésia, Tailândia, Brasil, México, etc.</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
