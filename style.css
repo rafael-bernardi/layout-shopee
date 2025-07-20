@@ -1,0 +1,87 @@
+:root {
+    --shp-orange: #ff5722;
+    --shp-green: #03a63c;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .topbar, .searchbar {
+    background-color: var(--shp-orange);
+  }
+  
+  .top-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .top-link:hover {
+    text-decoration: underline;
+  }
+
+  .searchbar input {
+    padding-right: 3rem;
+  }
+  
+  .searchbar button {
+    width: 3rem;
+    background: none;
+  }
+  
+  .badge-discount {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background: #ff4d4f;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 2px 4px;
+    border-radius: 2px;
+  }
+  
+  .badge-shipping {
+    position: absolute;
+    bottom: 62px;
+    left: 0;
+    right: 0;
+    background: var(--shp-green);
+    color: #fff;
+    font-size: 0.65rem;
+    text-align: center;
+    padding: 2px 0;
+  }
+  
+  .product-card img {
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 0.8rem;
+    height: 2.8em;
+    overflow: hidden;
+  }
+  
+  .price-old {
+    font-size: 0.75rem;
+    text-decoration: line-through;
+  }
+  
+  .price-new {
+    font-size: 0.9rem;
+  }
+  
+  .letter {
+    letter-spacing: 0.1em;
+  }
+.separator { 
+    opacity:.6; 
+}
+
+.sold { 
+    font-size:.7rem; 
+}
+.text-orange {
+    color: #ee4d2d; /* laranja Shopee */
+  }
